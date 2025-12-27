@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Creative Developer & Designer</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- AOS Library for animations -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div id="custom-cursor"></div>
+
+    <!-- Navigation -->
+    <nav class="nav glass">
+        <div class="container nav-container">
+            <a href="#" class="logo">PORTFOLIO<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-cta">
+                <a href="#contact" class="btn btn-primary">Hire Me</a>
+            </div>
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero section-padding">
+        <div class="container hero-container">
+            <div class="hero-content" data-aos="fade-up">
+                <h2 class="hero-greeting">Hi, I'm John Doe</h2>
+                <h1 class="hero-title">Crafting <span>Digital</span><br>Experiences.</h1>
+                <p class="hero-desc">Full-stack developer and UI/UX designer specializing in building exceptional digital products that solve complex problems.</p>
+                <div class="hero-actions">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+            <!-- Optional: Hero Image or Animation Container -->
+            <div class="hero-visual" data-aos="zoom-in" data-aos-delay="200">
+                <div class="visual-blob"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section (Bento Grid) -->
+    <section id="about" class="about section-padding">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-right">About Me</h2>
+            <div class="bento-grid">
+                <!-- Large Bio Card -->
+                <div class="bento-item glass col-span-2 row-span-2" data-aos="fade-up">
+                    <h3>My Journey</h3>
+                    <p>With over 5 years of experience in the digital space, I've worked with startups and established brands to bring their visions to life. My approach combines technical excellence with a deep understanding of user behavior.</p>
+                </div>
+                <!-- Skills Card -->
+                <div class="bento-item glass row-span-2" data-aos="fade-up" data-aos-delay="100">
+                    <h3>Skills</h3>
+                    <div class="skill-tags">
+                        <span class="tag">React</span>
+                        <span class="tag">Node.js</span>
+                        <span class="tag">TypeScript</span>
+                        <span class="tag">UI/UX</span>
+                        <span class="tag">PostgreSQL</span>
+                    </div>
+                </div>
+                <!-- Mini Card: Projects -->
+                <div class="bento-item glass" data-aos="fade-up" data-aos-delay="200">
+                    <h4>50+</h4>
+                    <p>Projects Delivered</p>
+                </div>
+                <!-- Mini Card: Experience -->
+                <div class="bento-item glass" data-aos="fade-up" data-aos-delay="300">
+                    <h4>5+</h4>
+                    <p>Years Experience</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section-padding">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-right">Featured Projects</h2>
+            <div class="projects-grid">
+                <!-- Example Project 1 -->
+                <div class="project-card glass" data-aos="fade-up">
+                    <div class="project-img">
+                        <!-- Placeholder for project image -->
+                        <div class="img-placeholder"></div>
+                    </div>
+                    <div class="project-info">
+                        <h3>E-Commerce Revolution</h3>
+                        <p>A high-performance online store built with Next.js and Stripe.</p>
+                        <a href="#" class="view-link">View Project <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <!-- Example Project 2 -->
+                <div class="project-card glass" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-img">
+                        <div class="img-placeholder"></div>
+                    </div>
+                    <div class="project-info">
+                        <h3>SaaS Dashboard</h3>
+                        <p>Real-time analytics platform for enterprise data visualization.</p>
+                        <a href="#" class="view-link">View Project <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section-padding">
+        <div class="container">
+            <div class="contact-card glass" data-aos="zoom-in">
+                <h2 class="section-title">Let's Work Together</h2>
+                <p>Have a project in mind? Let's talk about how I can help.</p>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 PORTFOLIO. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
